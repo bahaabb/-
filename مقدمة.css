@@ -1,0 +1,219 @@
+/* الأساسيات */
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* الشريط العلوي */
+header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+/* القائمة العلوية */
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* المحتوى الرئيسي */
+main {
+    padding: 2rem;
+}
+
+section {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+/* العناوين */
+section h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* القوائم */
+section ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+/* الروابط */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* تنسيق الفقرات */
+section p {
+    margin-bottom: 1rem;
+}
+
+/* بطاقات الدروس */
+.lessons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.lesson-card {
+    background-color: #e0ffe0;
+    padding: 1rem;
+    border-radius: 6px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.lesson-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* إعدادات عامة للموقع */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* تنسيق رأس الصفحة */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* تنسيق روابط التنقل */
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header nav a:hover {
+    background-color: #45a049;
+    border-radius: 4px;
+}
+
+/* تنسيق المحتوى الرئيسي */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق العناوين */
+h1, h2, h3 {
+    color: #4CAF50;
+}
+
+/* تنسيق الفقرات */
+p {
+    margin-bottom: 1rem;
+}
+
+/* تنسيق القوائم */
+ul {
+    list-style-type: disc;
+    margin: 10px 0 20px 20px;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+/* تنسيق الروابط الداخلية */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* جعل الموقع متجاوبًا */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+    
+    header nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+
+a {
+    display: inline-block;
+    color: white;
+    background: #1f170f;
+    border: 2px solid #1e87f0;
+    border-radius: 4px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+a:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
